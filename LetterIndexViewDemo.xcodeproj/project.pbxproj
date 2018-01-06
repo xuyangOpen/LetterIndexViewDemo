@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18FB4C852000B11100A95A3B /* SectionIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB4C822000B11000A95A3B /* SectionIndicatorView.m */; };
+		18FB4C862000B11100A95A3B /* IndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18FB4C832000B11000A95A3B /* IndexView.m */; };
 		88751E281F8F3E78000926B6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 88751E271F8F3E78000926B6 /* AppDelegate.m */; };
 		88751E2B1F8F3E78000926B6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88751E2A1F8F3E78000926B6 /* ViewController.m */; };
 		88751E2E1F8F3E78000926B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88751E2C1F8F3E78000926B6 /* Main.storyboard */; };
@@ -15,11 +17,9 @@
 		88751E361F8F3E78000926B6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88751E351F8F3E78000926B6 /* main.m */; };
 		88751E401F8F3E79000926B6 /* LetterIndexViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88751E3F1F8F3E79000926B6 /* LetterIndexViewDemoTests.m */; };
 		88751E4B1F8F3E79000926B6 /* LetterIndexViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 88751E4A1F8F3E79000926B6 /* LetterIndexViewDemoUITests.m */; };
-		88751E5A1F8F3EA5000926B6 /* IndexView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88751E591F8F3EA5000926B6 /* IndexView.m */; };
 		88751E5D1F8F4810000926B6 /* NSString+PinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = 88751E5C1F8F4810000926B6 /* NSString+PinYin.m */; };
 		88751E601F8F4C14000926B6 /* TableViewHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88751E5F1F8F4C14000926B6 /* TableViewHeaderView.m */; };
 		88751E631F8F4E98000926B6 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88751E621F8F4E98000926B6 /* TableViewCell.m */; };
-		88751E661F8F5195000926B6 /* SectionIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88751E651F8F5195000926B6 /* SectionIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18FB4C812000B11000A95A3B /* IndexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexView.h; sourceTree = "<group>"; };
+		18FB4C822000B11000A95A3B /* SectionIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionIndicatorView.m; sourceTree = "<group>"; };
+		18FB4C832000B11000A95A3B /* IndexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexView.m; sourceTree = "<group>"; };
+		18FB4C842000B11000A95A3B /* SectionIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionIndicatorView.h; sourceTree = "<group>"; };
 		88751E231F8F3E78000926B6 /* LetterIndexViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LetterIndexViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88751E261F8F3E78000926B6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		88751E271F8F3E78000926B6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -56,16 +60,12 @@
 		88751E461F8F3E79000926B6 /* LetterIndexViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LetterIndexViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		88751E4A1F8F3E79000926B6 /* LetterIndexViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LetterIndexViewDemoUITests.m; sourceTree = "<group>"; };
 		88751E4C1F8F3E79000926B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88751E581F8F3EA5000926B6 /* IndexView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndexView.h; sourceTree = "<group>"; };
-		88751E591F8F3EA5000926B6 /* IndexView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndexView.m; sourceTree = "<group>"; };
 		88751E5B1F8F4810000926B6 /* NSString+PinYin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+PinYin.h"; sourceTree = "<group>"; };
 		88751E5C1F8F4810000926B6 /* NSString+PinYin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+PinYin.m"; sourceTree = "<group>"; };
 		88751E5E1F8F4C14000926B6 /* TableViewHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewHeaderView.h; sourceTree = "<group>"; };
 		88751E5F1F8F4C14000926B6 /* TableViewHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewHeaderView.m; sourceTree = "<group>"; };
 		88751E611F8F4E98000926B6 /* TableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		88751E621F8F4E98000926B6 /* TableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
-		88751E641F8F5195000926B6 /* SectionIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SectionIndicatorView.h; sourceTree = "<group>"; };
-		88751E651F8F5195000926B6 /* SectionIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SectionIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +93,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18FB4C802000B11000A95A3B /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				18FB4C812000B11000A95A3B /* IndexView.h */,
+				18FB4C832000B11000A95A3B /* IndexView.m */,
+				18FB4C842000B11000A95A3B /* SectionIndicatorView.h */,
+				18FB4C822000B11000A95A3B /* SectionIndicatorView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		88751E1A1F8F3E78000926B6 = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +127,7 @@
 		88751E251F8F3E78000926B6 /* LetterIndexViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				18FB4C802000B11000A95A3B /* Classes */,
 				88751E261F8F3E78000926B6 /* AppDelegate.h */,
 				88751E271F8F3E78000926B6 /* AppDelegate.m */,
 				88751E291F8F3E78000926B6 /* ViewController.h */,
@@ -129,10 +141,6 @@
 				88751E311F8F3E78000926B6 /* LaunchScreen.storyboard */,
 				88751E341F8F3E78000926B6 /* Info.plist */,
 				88751E351F8F3E78000926B6 /* main.m */,
-				88751E581F8F3EA5000926B6 /* IndexView.h */,
-				88751E591F8F3EA5000926B6 /* IndexView.m */,
-				88751E641F8F5195000926B6 /* SectionIndicatorView.h */,
-				88751E651F8F5195000926B6 /* SectionIndicatorView.m */,
 				88751E5B1F8F4810000926B6 /* NSString+PinYin.h */,
 				88751E5C1F8F4810000926B6 /* NSString+PinYin.m */,
 			);
@@ -291,12 +299,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				88751E631F8F4E98000926B6 /* TableViewCell.m in Sources */,
+				18FB4C862000B11100A95A3B /* IndexView.m in Sources */,
+				18FB4C852000B11100A95A3B /* SectionIndicatorView.m in Sources */,
 				88751E2B1F8F3E78000926B6 /* ViewController.m in Sources */,
-				88751E5A1F8F3EA5000926B6 /* IndexView.m in Sources */,
 				88751E361F8F3E78000926B6 /* main.m in Sources */,
 				88751E601F8F4C14000926B6 /* TableViewHeaderView.m in Sources */,
 				88751E281F8F3E78000926B6 /* AppDelegate.m in Sources */,
-				88751E661F8F5195000926B6 /* SectionIndicatorView.m in Sources */,
 				88751E5D1F8F4810000926B6 /* NSString+PinYin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
